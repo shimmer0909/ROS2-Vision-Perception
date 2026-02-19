@@ -76,7 +76,7 @@ You should see:
 mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
 git clone https://github.com/shimmer0909/ROS2-Vision-Perception
-cd ..
+cd ROS2-Vision-Perception/perception_ws
 colcon build
 source install/setup.bash
 ```
@@ -84,7 +84,7 @@ source install/setup.bash
 You can permanently source setup.bash 
 ```bash
 source install/setup.bash
-echo "source ~/Ros2-Vision-Perception/perception_ws/install/setup.bash" >> ~/.bashrc
+echo "source ~/ROS2-Vision-Perception/perception_ws/install/setup.bash" >> ~/.bashrc
 ```
 
 ### 2️⃣ Install dependencies
@@ -201,7 +201,7 @@ Works on:
 - person
 - etc. (COCO classes)
 
-## 🌗 Key Experiment: Yolo accuracy issues
+## 🔬 Experiment: Impact of Simulation Lighting on Detection Accuracy
 
 The default lighting of aws-robomaker-small-house-world and light coloured furniture results in low detection and classification accuracy. 
 
