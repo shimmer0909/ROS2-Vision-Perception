@@ -212,8 +212,9 @@ Things to fix
 
 Solution
 Dim the simulation lights by reducing 
-1. Diffuse light <diffuse>
-2. Specular reflection <specular>
+1. Diffuse light - ``` <diffuse>0.35 0.35 0.35 1</diffuse> ```
+2. Specular reflection - ``` <specular>0.03 0.03 0.03 1</specular> ```
+3. Ambience - ``` <ambient>0.3 0.3 0.3 1</ambient> ```
 
 ```bash
 gedit ~/aws-robomaker-small-house-world/worlds/small_house.world
