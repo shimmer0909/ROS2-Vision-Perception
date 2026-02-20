@@ -15,7 +15,7 @@ This project demonstrates a complete robot perception pipeline — from simulate
 
 ## 🎥 Demo
 
-1. [Final Demo](https://drive.google.com/file/d/1Wd6d5arcSVy20p_EnRnbW0kVb2GHAEV1/view?usp=drive_link)
+1. [Final Demo](https://drive.google.com/file/d/1PgR9341db-Rgu3Lc2sG-cK_ZwCZnD1IS/view?usp=drive_link)
 
 ## 🏗 System Architecture
 
